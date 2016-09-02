@@ -24,15 +24,6 @@ public class BasicCalculatorTest {
 	@Test
 	public void testSum() {
 		//GIVEN
-		/*
-		 * int mx = Integer.MAX_VALUE; long mxs = (long) mx + mx; long
-		 * testedMaxValue = bc.sum(mx, mx); Assert.assertEquals(mxs,
-		 * testedMaxValue);
-		 * 
-		 * int mn = Integer.MIN_VALUE; long mns = (long) mn + mn; long
-		 * testedMinValue = bc.sum(mn, mn); Assert.assertEquals(mns,
-		 * testedMinValue);
-		 */
 		//WHEN
 		long sumOfAandB = bc.sum(a, b);
 		long sumOfBandA = bc.sum(b, a);
